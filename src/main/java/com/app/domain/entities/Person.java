@@ -22,19 +22,25 @@ public class Person {
   private String email;
   @Column(nullable = false)
   private String password;
+
   public Long getId() {
     return id;
   }
+
   public String getFirstName() {
-    return first_name;
+    return firstName;
   }
+
   public String getLastName() {
-    return last_name;
+    return lastName;
   }
+
   public String getEmail() {
     return email;
   }
+
   public String getPassword() {
     return password;
   }
 }
+
